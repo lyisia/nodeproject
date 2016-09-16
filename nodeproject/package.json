@@ -1,0 +1,17 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "lyisia",
+  "dependencies": {
+    "async": "~0.2.10",
+    "express": "~4.13.3",
+    "socket.io": "~0.9.17"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
