@@ -5,13 +5,21 @@
   "main": "server.js",
   "author": "lyisia",
   "dependencies": {
-    "async": "~0.2.10",
-    "express": "~4.13.3",
-    "socket.io": "~0.9.17"
+    "async": "^0.2.10",
+    "ejs": "^2.5.2",
+    "express": "^4.13.3",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.3",
+    "wiredep": "^4.0.0"
   },
   "scripts": {
     "start": "node app.js"
   },
-  "devDependencies": {},
   "license": "ISC"
 }
